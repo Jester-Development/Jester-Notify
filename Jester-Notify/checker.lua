@@ -1,5 +1,4 @@
 local CurrentVersion = "1.0.0"
-
 local VersionURL = "https://raw.githubusercontent.com/Jester-Development/Jester-Notify/main/version.lua"
 
 PerformHttpRequest(VersionURL, function(statusCode, response, _)
